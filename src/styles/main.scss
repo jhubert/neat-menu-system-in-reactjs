@@ -1,0 +1,11 @@
+body { background-color: #d5d5d5; }
+
+.radio-option-set { display: flex; justify-content: space-between; }
+.radio-option-set a { display: inline-block; padding: 4px 10px; border-radius: 3px; transition: background-color 0.2s; text-decoration: none; background-color: #000; color: #fff;  width: 30%; }
+.radio-option-set a:first-child { margin-left: 0; }
+.radio-option-set a:active { background-color: #999; }
+.radio-option-set a.selected { background-color: #f09; }
+
+.radio-option-set a { flex-grow: 0; text-align: center; margin: 0; }
+
+.btn-brand { background-color: #f09; color: #fff; }
